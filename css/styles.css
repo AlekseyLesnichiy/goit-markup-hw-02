@@ -6,6 +6,24 @@
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
+
+/* Header */
+
+.navigate-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  color: #212121;
+}
+.navigate-logo-color {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  color: #2196f3;
+}
+
 .navigate-studio,
 .navigate-portfolio,
 .navigate-contacts {
@@ -41,6 +59,9 @@
 .navigate-phone:focus {
   color: #2196f3;
 }
+
+/* Section Hero */
+
 .title-hero {
   font-weight: 900;
   font-size: 44px;
@@ -49,6 +70,7 @@
 }
 .hero-button {
   background-color: #2196f3;
+  cursor: pointer;
 }
 .hero-button-text {
   font-weight: 700;
@@ -56,6 +78,9 @@
   line-height: 160%;
   color: #ffffff;
 }
+
+/* Section Advantages */
+
 .title-advantages {
   display: none;
 }
@@ -71,6 +96,9 @@
   line-height: 146%;
   color: #757575;
 }
+
+/* Section Samples,Team */
+
 .title-samples,
 .title-team {
   font-weight: 700;
@@ -90,6 +118,9 @@
   line-height: 100%;
   color: #757575;
 }
+
+/* Footer */
+
 .footer-adress {
   font-weight: 400;
   font-size: 14px;
@@ -117,4 +148,44 @@
 }
 .footer {
   background-color: #2f303a;
+}
+
+/* Portfolio page */
+/* Buttons */
+.button-list-item {
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-list-item:hover,
+.button-list-item:focus {
+  background-color: #2196f3;
+}
+.button-list-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 139%;
+  color: #212121;
+}
+.button-list-item-text:hover,
+.button-list-item-text:focus {
+  color: #ffffff;
+}
+.button-list,
+.portfolio-title-samples {
+  list-style-type: none;
+}
+
+/* Section of projects */
+
+.portfolio-title-samples-subject {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 171%;
+  color: #212121;
+}
+.portfolio-title-samples-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #757575;
 }
