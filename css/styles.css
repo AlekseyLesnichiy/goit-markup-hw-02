@@ -1,0 +1,82 @@
+/* второстепенный цвет текста #757575; */
+/* основной цвет текста  #212121;*/
+/*цвет акцента внимания #2196F3  */
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+.navigate-studio,
+.navigate-portfolio,
+.navigate-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #212121;
+}
+.navigate-studio:hover {
+  color: #2196f3;
+}
+.navigate-mail,
+.navigate-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #757575;
+}
+.navigate-mail:hover {
+  color: #2196f3;
+}
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.hero-button {
+  background-color: #2196f3;
+}
+.hero-button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.title-advantages {
+  display: none;
+}
+.title-advantages-subject {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #212121;
+}
+.title-advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.title-samples,
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  color: #212121;
+}
+.title-team-subject {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #212121;
+}
+.title-team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #757575;
+}
+.navigate-adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
