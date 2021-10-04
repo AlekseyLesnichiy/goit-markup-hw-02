@@ -1,34 +1,60 @@
 /* второстепенный цвет текста #757575; */
 /* основной цвет текста  #212121;*/
 /*цвет акцента внимания #2196F3  */
+/* footer background: #2F303A; */
 .body {
+  background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
-.navigate-studio,
+.navigate-studio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #2196f3;
+}
 .navigate-portfolio,
 .navigate-contacts {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16.41px;
+  line-height: 100%;
   color: #212121;
 }
-.navigate-studio:hover {
+.navigate-studio:hover,
+.navigate-studio:focus {
+  color: tomato;
+}
+.navigate-portfolio:hover,
+.navigate-portfolio:focus {
+  color: tomato;
+}
+.navigate-contacts:hover,
+.navigate-contacts:focus {
+  color: tomato;
+}
+.navigate-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
   color: #2196f3;
 }
-.navigate-mail,
 .navigate-phone {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16.41px;
+  line-height: 100%;
   color: #757575;
 }
-.navigate-mail:hover {
-  color: #2196f3;
+.navigate-mail:hover,
+.navigate-mail:focus {
+  color: tomato;
+}
+.navigate-phone:hover,
+.navigate-phone:focus {
+  color: tomato;
 }
 .title-hero {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 116%;
   color: #ffffff;
 }
 .hero-button {
@@ -37,7 +63,7 @@
 .hero-button-text {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 160%;
   color: #ffffff;
 }
 .title-advantages {
@@ -46,37 +72,59 @@
 .title-advantages-subject {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16.41px;
+  line-height: 100%;
   color: #212121;
 }
 .title-advantages-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
   color: #757575;
 }
 .title-samples,
 .title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42.19px;
+  line-height: 100%;
   color: #212121;
 }
 .title-team-subject {
   font-weight: 500;
   font-size: 16px;
-  line-height: 18.75px;
+  line-height: 100%;
   color: #212121;
 }
 .title-team-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 18.75px;
+  line-height: 100%;
   color: #757575;
 }
-.navigate-adress {
+.footer-adress {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
+}
+.footer-mail,
+.footer-phone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 146%;
+  color: #757575;
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: tomato;
+}
+.footer-adress:hover,
+.footer-adress:focus {
+  color: tomato;
+}
+.footer-phone:hover,
+.footer-phone:focus {
+  color: tomato;
+}
+.footer {
+  background-color: #2f303a;
 }
