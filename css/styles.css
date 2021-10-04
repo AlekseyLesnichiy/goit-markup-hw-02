@@ -6,12 +6,7 @@
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
-.navigate-studio {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 100%;
-  color: #2196f3;
-}
+.navigate-studio,
 .navigate-portfolio,
 .navigate-contacts {
   font-weight: 500;
@@ -21,22 +16,17 @@
 }
 .navigate-studio:hover,
 .navigate-studio:focus {
-  color: tomato;
+  color: #2196f3;
 }
 .navigate-portfolio:hover,
 .navigate-portfolio:focus {
-  color: tomato;
+  color: #2196f3;
 }
 .navigate-contacts:hover,
 .navigate-contacts:focus {
-  color: tomato;
-}
-.navigate-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 100%;
   color: #2196f3;
 }
+.navigate-mail,
 .navigate-phone {
   font-weight: 500;
   font-size: 14px;
@@ -45,11 +35,11 @@
 }
 .navigate-mail:hover,
 .navigate-mail:focus {
-  color: tomato;
+  color: #2196f3;
 }
 .navigate-phone:hover,
 .navigate-phone:focus {
-  color: tomato;
+  color: #2196f3;
 }
 .title-hero {
   font-weight: 900;
@@ -115,15 +105,15 @@
 }
 .footer-mail:hover,
 .footer-mail:focus {
-  color: tomato;
+  color: #2196f3;
 }
 .footer-adress:hover,
 .footer-adress:focus {
-  color: tomato;
+  color: #2196f3;
 }
 .footer-phone:hover,
 .footer-phone:focus {
-  color: tomato;
+  color: #2196f3;
 }
 .footer {
   background-color: #2f303a;
