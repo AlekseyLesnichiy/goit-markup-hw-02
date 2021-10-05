@@ -8,7 +8,9 @@
 }
 
 /* Header */
-
+.navigate-list {
+  list-style-type: none;
+}
 .navigate-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -80,6 +82,10 @@
 }
 
 /* Section Advantages */
+
+.advantages-list {
+  list-style-type: none;
+}
 
 .title-advantages {
   display: none;
