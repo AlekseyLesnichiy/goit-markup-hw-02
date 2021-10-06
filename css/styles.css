@@ -2,6 +2,12 @@
 /* основной цвет текста  #212121;*/
 /*цвет акцента внимания #2196F3  */
 /* footer background: #2F303A; */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
 .body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -13,17 +19,15 @@
 }
 .navigate-logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
   font-size: 26px;
   line-height: 100%;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .navigate-logo-color {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
   font-size: 26px;
   line-height: 100%;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .navigate-studio,
@@ -32,34 +36,34 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .navigate-studio:hover,
 .navigate-studio:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .navigate-portfolio:hover,
 .navigate-portfolio:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .navigate-contacts:hover,
 .navigate-contacts:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .navigate-mail,
 .navigate-phone {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .navigate-mail:hover,
 .navigate-mail:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .navigate-phone:hover,
 .navigate-phone:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Section Hero */
@@ -71,7 +75,7 @@
   color: #ffffff;
 }
 .hero-button {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 .hero-button-text {
@@ -94,13 +98,12 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
-  color: #212121;
+  color: var(--title-text-color) 1;
 }
 .title-advantages-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 146%;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* Section Samples,Team */
@@ -115,70 +118,67 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 100%;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .title-team-subject {
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .title-team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* Footer */
 
 .footer-adress {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
 }
 .footer-mail,
 .footer-phone {
-  font-weight: 400;
   font-size: 14px;
   line-height: 146%;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .footer-mail:hover,
 .footer-mail:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-adress:hover,
 .footer-adress:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-phone:hover,
 .footer-phone:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer {
   background-color: #2f303a;
 }
-
+.footer-logo-color {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 100%;
+  color: #ffffff;
+}
 /* Portfolio page */
 /* Buttons */
 .button-list-item {
   background-color: #f5f4fa;
   cursor: pointer;
-}
-.button-list-item:hover,
-.button-list-item:focus {
-  background-color: #2196f3;
-}
-.button-list-item-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 139%;
-  color: #212121;
+  color: var(--title-text-color);
 }
-.button-list-item-text:hover,
-.button-list-item-text:focus {
+.button-list-item:hover,
+.button-list-item:focus {
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 .button-list,
@@ -192,11 +192,10 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 171%;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .portfolio-title-samples-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #757575;
+  color: var(--primary-text-color);
 }
