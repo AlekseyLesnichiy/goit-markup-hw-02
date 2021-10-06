@@ -6,6 +6,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --button-primary-color: #f5f4fa;
 }
 
 .body {
@@ -14,19 +15,20 @@
 }
 
 /* Header */
+
 .navigate-list {
   list-style-type: none;
 }
 .navigate-logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 1.192;
   color: var(--title-text-color);
 }
 .navigate-logo-color {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 1.192;
   color: var(--accent-color);
 }
 
@@ -35,7 +37,7 @@
 .navigate-contacts {
   font-weight: 500;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
   color: var(--title-text-color);
 }
 .navigate-studio:hover,
@@ -54,7 +56,7 @@
 .navigate-phone {
   font-weight: 500;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
   color: var(--primary-text-color);
 }
 .navigate-mail:hover,
@@ -71,17 +73,19 @@
 .title-hero {
   font-weight: 900;
   font-size: 44px;
-  line-height: 116%;
+  line-height: 1.36;
   color: #ffffff;
 }
 .hero-button {
-  background-color: var(--accent-color);
+  background-color: var(--button-primary-color);
   cursor: pointer;
-}
-.hero-button-text {
   font-weight: 700;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 1.875;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 
@@ -97,12 +101,12 @@
 .title-advantages-subject {
   font-weight: 700;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.14;
   color: var(--title-text-color) 1;
 }
 .title-advantages-text {
   font-size: 14px;
-  line-height: 146%;
+  line-height: 1.71;
   color: var(--primary-text-color);
 }
 
@@ -117,18 +121,18 @@
 .title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 100%;
+  line-height: 1.1666;
   color: var(--title-text-color);
 }
 .title-team-subject {
   font-weight: 500;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 1.1875;
   color: var(--title-text-color);
 }
 .title-team-text {
   font-size: 16px;
-  line-height: 100%;
+  line-height: 1.1875;
   color: var(--primary-text-color);
 }
 
@@ -136,13 +140,13 @@
 
 .footer-adress {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.1875;
   color: #ffffff;
 }
 .footer-mail,
 .footer-phone {
   font-size: 14px;
-  line-height: 146%;
+  line-height: 1.1875;
   color: var(--primary-text-color);
 }
 .footer-mail:hover,
@@ -163,17 +167,17 @@
 .footer-logo-color {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 1.192;
   color: #ffffff;
 }
 /* Portfolio page */
 /* Buttons */
 .button-list-item {
-  background-color: #f5f4fa;
+  background-color: var(--button-primary-color);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 139%;
+  line-height: 1.368;
   color: var(--title-text-color);
 }
 .button-list-item:hover,
@@ -191,11 +195,11 @@
 .portfolio-title-samples-subject {
   font-weight: 700;
   font-size: 18px;
-  line-height: 171%;
+  line-height: 2;
   color: var(--title-text-color);
 }
 .portfolio-title-samples-text {
   font-size: 16px;
-  line-height: 160%;
+  line-height: 1.875;
   color: var(--primary-text-color);
 }
